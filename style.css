@@ -7,6 +7,7 @@
     line-height: 24px;
     outline: none;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 .btn {
@@ -34,11 +35,22 @@
 
 .img-google {
     display: block;
-  margin: 0 auto;
+  margin: 100px 50px 0 525px;
+    
+                
 }
 
 #search {
      text-align:center;
+    height: 45px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+    margin: 0 auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
 }
 
 .p-text {
@@ -67,3 +79,14 @@ ul {list-style-type: none;}
     float: right;
     margin: 10px;
 }
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+.english {
+    text-decoration: underline;
+    color: blue;
+}
+
